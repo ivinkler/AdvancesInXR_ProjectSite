@@ -25,6 +25,7 @@ I feel this project would be good for promoting empathy for people with disabili
 (ie, does navigation of this space rely on color? are warnings posted in ways that somebody with visual impairment or auditory impairment will be made clearly aware of them?)
 
 ## Progression
+### This is where progress on the project will be tracked
 
 # **Utilized Technologies**
 ## Unity Engine

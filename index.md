@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# **Sensory Underload**
+Ian Vinkler
 
-You can use the [editor on GitHub](https://github.com/ivinkler/AdvancesInXR_ProjectSite/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Initial Goal
 
-### Markdown
+The aim of this project is to use VR to explore how we engage with our senses - or more particularly, how we engage with the loss, degredation, or alteration of one of our senses. The project itself will be layed out like a scientific experiment - the user will be guided through a virtual "obstacle course" of sorts, but will have limited or altered  sensory feedback
+The basic initial build will focus on these key senses:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Visual
+As somebody with severe near-sightedness, I am interested in using VR to explore how different kinds of visual imparements may affect how somebody engages with and navigates a space. Using VR, we can simulate these to a degree that is not possible in reality. Some examples I wish to explore include:
+- Color Blindness
+- Near/Far sightedness
+- Dyslexia (Technically not a visual impairment, but is visual-based and affects many people)
 
-```markdown
-Syntax highlighted code block
+### Auditory
+Our ability to hear is a powerful tool for understanding our environment - and I am curious as to how this works in tandem with or compensates for our visual senses. From the audio perspective, I am interested in exploring:
+- Varrying degrees of deafness
+- Sound sensitivity
+- How auditory feedback can compensate for visual impairment.
 
-# Header 1
-## Header 2
-### Header 3
+## Potential Aplicaitons
 
-- Bulleted
-- List
+I feel this project would be good for promoting empathy for people with disability from those who may have difficulty putting themselves in those situations. I also feel this would be a good way to test how accessible a building layout or design is for people with these types of impairments.
+(ie, does navigation of this space rely on color? are warnings posted in ways that somebody with visual impairment or auditory impairment will be made clearly aware of them?)
 
-1. Numbered
-2. List
+## Progression
 
-**Bold** and _Italic_ and `Code` text
+# **Utilized Technologies**
+## Unity Engine
 
-[Link](url) and ![Image](src)
-```
+The project will be built within the Unity Engine and utilize is VR capabilities and API.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Steam Audio
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ivinkler/AdvancesInXR_ProjectSite/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The project will make use of spatialized audio to simulate the acoustic properties of a real environment and real human hearing.

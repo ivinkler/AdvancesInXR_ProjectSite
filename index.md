@@ -24,8 +24,13 @@ Our ability to hear is a powerful tool for understanding our environment - and I
 I feel this project would be good for promoting empathy for people with disability from those who may have difficulty putting themselves in those situations. I also feel this would be a good way to test how accessible a building layout or design is for people with these types of impairments.
 (ie, does navigation of this space rely on color? are warnings posted in ways that somebody with visual impairment or auditory impairment will be made clearly aware of them?)
 
+## State-of-the-Art & Challenges
+Much of what I will be doing visually will be on the rendering & post processing side of things - and from the auditory side of things I will be using spatialized audio to give the most true-to-reality feel I can. I will be following the contemporary research on the subject of simulating medical conditions in VR (see: https://s3-ap-southeast-2.amazonaws.com/pstorage-wellington-7594921145/22871222/2020McIntoshetalSimulatingImpairmentVR.pdf and https://www.researchgate.net/publication/329741337_Degraded_Reality_Using_VRAR_to_simulate_visual_impairments) 
+
+I feel my greatest challenge will be using Unity’s render pipeline and post-processing to simulate real impairments as closely and accurately as possible. Additionally, I will need to ensure the simulation is not overly complex or over stimulating, as I can imagine the potential for nausea and motion sickness will only increase with altered visuals.
+
 ## Progression
-### This is where progress on the project will be tracked
+This is where progress on the project will be tracked
 
 # **Utilized Technologies**
 ## Unity Engine
@@ -35,3 +40,23 @@ The project will be built within the Unity Engine and utilize is VR capabilities
 ## Steam Audio
 
 The project will make use of spatialized audio to simulate the acoustic properties of a real environment and real human hearing.
+
+# **Minimum Viable Product**
+- Single navigable level for player to explore and interact with in VR
+  - Main base layout by 25th
+- Implementation of initial audio & visual impairments
+  - Implementation of near/far sightedness by 25th
+- Script & tasks to guide player through the course
+- Timer/Score system to grade how well user navigates the level
+
+# **Future Development**
+- Implementation of haptics to simulate more senses
+- Implementation of further visual and auditory impairments
+- Creation of more courses
+  - Procedural generation?
+- More specific objectives & tasks within the courses
+  - Find an object?
+  - Escort an NPC?
+  - Perform a complex task?
+
+

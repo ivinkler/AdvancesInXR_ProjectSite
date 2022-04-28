@@ -1,0 +1,54 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
+
+public class DOFBehavior : MonoBehaviour
+{
+    [SerializeField] GameObject mainCam;
+    [SerializeField] PostProcessVolume ppv;
+    [SerializeField] float maxFocalDistance = 10f;
+    [SerializeField] float minFocalDistance = 0.1f;
+    [SerializeField] float focalDist;
+    [SerializeField] float refocusSpeed = 100f;
+    DepthOfField dof;
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        mainCam = GameObject.Find("Main Camera");
+        ppv = GameObject.Find("PostProcessor").GetComponent<PostProcessVolume>();
+        dof = ppv.profile.GetSetting<DepthOfField>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        RaycastHit hit;
+        Ray focus = new Ray(mainCam.transform.position, Vector3.forward);
+
+        if(Physics.Raycast(focus, out hit))
+        {
+            if(hit.distance < maxFocalDistance)
+            {
+                if(hit.distance > minFocalDistance)
+                {
+                    dof.focusDistance.value = Mathf.Lerp(dof.focusDistance.value, hit.distance, Time.deltaTime * refocusSpeed);
+                }
+                else
+                {
+                    dof.focusDistance.value = Mathf.Lerp(dof.focusDistance.value, minFocalDistance, Time.deltaTime * refocusSpeed);
+                }
+            }
+            else
+            {
+                dof.focusDistance.value = Mathf.Lerp(dof.focusDistance.value, maxFocalDistance, Time.deltaTime * refocusSpeed);
+            }
+
+            //Debug.Log(hit.distance);
+        }
+
+        
+    }
+}

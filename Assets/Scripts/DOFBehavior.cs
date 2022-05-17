@@ -1,25 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.Rendering;
+//using UnityEngine.Rendering.HighDefinition;
 
 public class DOFBehavior : MonoBehaviour
-{
+{/*
     [SerializeField] GameObject mainCam;
-    [SerializeField] PostProcessVolume ppv;
+    [SerializeField] GameObject vol;
     [SerializeField] float maxFocalDistance = 10f;
     [SerializeField] float minFocalDistance = 0.1f;
     [SerializeField] float focalDist;
     [SerializeField] float refocusSpeed = 100f;
-    DepthOfField dof;
+    //[SerializeField] DepthOfField dof;
 
 
     // Start is called before the first frame update
     void Start()
     {
         mainCam = GameObject.Find("Main Camera");
-        ppv = GameObject.Find("PostProcessor").GetComponent<PostProcessVolume>();
-        dof = ppv.profile.GetSetting<DepthOfField>();
+        vol = GameObject.Find("PostProcessor").GetComponent<PostProcessingVolume>();
+        //dof = vol.profile.GetSetting<DepthOfField>();
     }
 
     // Update is called once per frame
@@ -51,4 +52,5 @@ public class DOFBehavior : MonoBehaviour
 
         
     }
+    */
 }

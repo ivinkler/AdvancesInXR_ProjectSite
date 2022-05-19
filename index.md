@@ -1,6 +1,10 @@
 # **Sensory Underload**
 Ian Vinkler
 
+UMD CMSC498F, Spring 2022 Semester
+
+[Main Source Code Repo](https://github.com/ivinkler/Final-Project)
+
 ## Initial Goal
 
 [Initial Proposal Presentation](https://docs.google.com/presentation/d/15AEEFDeUZ1pilrMqrQi1OeVuRq_9CITGk70djZRYxAk/edit?usp=sharing)

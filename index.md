@@ -62,6 +62,7 @@ My main focus in the design process was making choices to reduce the risk of mot
 ### Early Development (April 25th Milestone)
 
 [Full Presentation + Images](https://docs.google.com/presentation/d/15oSyVoxtRcjpZ0IZH5rNjJsf_xytUUVrmwLu10GJLOs/edit#slide=id.p)
+
 **General summary of progress:**
 - All individual segments of the level modeled
 - Map layout planned and built into engine
@@ -76,8 +77,10 @@ My main focus in the design process was making choices to reduce the risk of mot
 ### Current State (May 18th Milestone)
 
 [Demo Video](https://drive.google.com/file/d/1gZR2t1sTjqKlwa5IT6IXiJjB5pkhgpMD/view?usp=sharing)
+
 [Full Presentation + Images](https://docs.google.com/presentation/d/1hJuyt_nUczFhHUP6JCWlvo9pvv5WEXVBV6uzIrYImX4/edit#slide=id.p)
-General summary of progress:
+
+**General summary of progress:**
 - Level fully modeled, lit, and collision set up.
 - VR Controls and interaction set up
 - Event structure set up for implementation of challenges
@@ -153,6 +156,7 @@ General summary of progress:
 - A single passive and active challenge have been implemented with full functionality.
 
 # **Future Development**
+
 ## Initial Outlook:
 - Implementation of haptics to simulate more senses
 - Implementation of further visual and auditory impairments
